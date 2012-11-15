@@ -1,4 +1,4 @@
-var	allowkey = function(e,allow) { // ha
+var	allowkey = function(e,allow) { // global
 	var k;
 	k=e.keyCode?parseInt(e.keyCode): parseInt(e.charCode);
 	if (!((k > 36 && k < 47)||(k > 7 && k < 10))){ // allows delete, tab, arrows, etc
